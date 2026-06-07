@@ -1,0 +1,45 @@
+.header {
+  display: flex;
+  justify-content: center;
+  background: #d6e32c;
+  align-items: center;
+}
+
+.date-time {
+  width: 300px;
+}
+
+.todo-status {
+  width: 300px;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+
+}
+
+.search-bar {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.serchbar-input {
+  width: 50%;
+  padding: 10px;
+}
+
+.todo-list {
+  margin-top: 2em;
+}
+
+.todoItem {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 0.2em;
+  border: 1px solid;
+  border-radius: 8px;
+  padding: 10px;
+}
